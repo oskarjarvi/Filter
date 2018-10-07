@@ -46,3 +46,6 @@ add_action('wp_enqueue_scripts', function () {
 add_filter('jpeg_quality', function () {
     return 100;
 }, 10, 2);
+
+require_once 'articles.php';
+require_once 'custom-endpoints.php';

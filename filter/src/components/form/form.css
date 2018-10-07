@@ -1,0 +1,13 @@
+.Form
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Form input
+{
+  display:block;
+  margin:10px;
+  width:80vw;
+}

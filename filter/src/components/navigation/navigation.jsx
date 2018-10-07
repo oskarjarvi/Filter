@@ -23,16 +23,15 @@ class Navigation extends Component
         <div className="hamburgerIcon">
           <HamburgerMenu isOpen={this.state.open}
             menuClicked={this.handleClick.bind(this)}
-            width={50}
-            height={50}
-            margin={15}
-            strokeWidth={1}
+            width={40}
+            height={30}
+            strokeWidth={2}
             rotate={0}
             color='black'
             borderRadius={0}
             animationDuration={0.5}/>
           </div>
-        <div className="hamburgerNav">
+        <div className={this.state.open ? "hamburgerNav open" : "hamburgerNav closed"}>
           <nav>
             <Link to="login">Logga In</Link>
             <Link to="about">Om oss</Link>

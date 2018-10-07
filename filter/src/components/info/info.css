@@ -1,0 +1,45 @@
+.info
+{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.More
+{
+background-color: white;
+padding:10px;
+color: black;
+height:20vh;
+text-align: center;
+}
+.More p
+{
+margin-left: auto;
+margin-right: auto;
+width:75%;
+}
+.Why
+{
+height:20vh;
+margin-left: 50px;
+margin-bottom: 10px;
+text-align: left;
+}
+.Why p
+{
+  width:85%;
+}
+.How
+{
+  background-color: white;
+  color:black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding:15px;
+
+}
+hr {
+  width:70%;
+}

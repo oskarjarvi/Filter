@@ -26,20 +26,16 @@ if(function_exists('acf_field_group')) {
     acf_field_group([
         'title' => 'Article',
         'fields' => [
-            acf_text([
-                'name' => 'Title',
-                'label' => 'Title',
-                'wrapper' =>
-                [
-                    'width' => '20',
-                    ],
-                ]),
                 acf_wysiwyg([
-                    'name' => 'Content',
+                    'name' => 'content',
                     'label' => 'Content',
                     'media_upload'=> true,
                     'toolbar'=>'simple',
                 ]),
+                acf_image([
+                    'name'=>'image',
+                    'label' => 'Image'
+                ])
 
 
             ],

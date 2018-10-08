@@ -17,5 +17,9 @@ $articles = get_posts([
     'post_type'=> 'articles',
     'numberposts'=> -1
 ]);
+foreach ($articles as $article)
+{
+    $article->fields=get_fields($article->ID);
+}
 return $articles;
 }

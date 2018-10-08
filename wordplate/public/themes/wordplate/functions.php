@@ -48,4 +48,5 @@ add_filter('jpeg_quality', function () {
 }, 10, 2);
 
 require_once 'articles.php';
+require_once 'magazines.php';
 require_once 'custom-endpoints.php';

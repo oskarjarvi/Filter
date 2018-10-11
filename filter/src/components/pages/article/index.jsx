@@ -43,10 +43,11 @@ class Article extends Component
         <div className="summary">
         {this.state.fields.summary}
         </div>
-        <div className="articleButton">
 
-        <Button name="Läs Reportage" url="/"/>
+        <div className="articleButton">
+        <Button name="Läs Reportage" url="/selection/read/51"/>
         </div>
+
         </div>
         <Heart />
         <Footer />

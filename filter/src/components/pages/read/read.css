@@ -5,23 +5,27 @@
 }
 .articleFooter
 {
-  height:5vh;
+  height:6vh;
   background-color: black;
   display:flex;
 }
 .likes
 {
+  padding:5px;
   background-image: url('../../assets/icons/heart.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 60px 60px ;
   align-self: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .back
 {
   background-image: url('../../assets/icons/Pil.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  align-self: center;
+  background-size: 60px 60px ;
+  padding:5px;
 }
 .icons
 {

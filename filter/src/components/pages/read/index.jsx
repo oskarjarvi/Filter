@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navigation from "../../global/navigation";
 import Footer from "../../global/footer/";
+import {Link} from "@reach/router";
 
 import './read.css';
 
@@ -45,7 +46,7 @@ class Article extends Component
           {this.state.fields.content}
         </div>
         <div className="articleFooter">
-          <div className="icons back"></div>
+          <Link to="/selection" className="icons back"></Link>
           <div className="icons likes"></div>
         </div>
 

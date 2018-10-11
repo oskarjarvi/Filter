@@ -19,7 +19,7 @@ class Navigation extends Component
   {
     return(
       <div className="navbar">
-        <div className="filterIcon"></div>
+        <Link to="/" className="filterIcon"></Link>
         <div className="hamburgerIcon">
           <HamburgerMenu isOpen={this.state.open}
             menuClicked={this.handleClick.bind(this)}

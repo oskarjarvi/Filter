@@ -26,15 +26,25 @@ if(function_exists('acf_field_group')) {
     acf_field_group([
         'title' => 'Article',
         'fields' => [
+            acf_text([
+                'name' => 'summary',
+                'label' => 'summary',
+                'required' => true
+            ]),
                 acf_wysiwyg([
                     'name' => 'content',
                     'label' => 'Content',
-                    'media_upload'=> true,
-                    'toolbar'=>'simple',
+                    'required' => true
+
                 ]),
                 acf_image([
                     'name'=>'image',
                     'label' => 'Image',
+                    'required' => true
+                ]),
+                acf_image([
+                    'name'=>'cover',
+                    'label' => 'Cover Image',
                     'required' => true
                 ])
 

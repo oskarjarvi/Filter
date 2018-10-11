@@ -8,7 +8,7 @@
 }
 .filterIcon
 {
-background-image: url('../assets/icons/logo.png');
+background-image: url('../../assets/icons/logo.png');
 background-repeat: no-repeat;
 background-size: cover;
 margin:10px;

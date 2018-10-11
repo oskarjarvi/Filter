@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DisplayBox from '../displaybox';
+import DisplayBox from '../../displaybox';
 import './articles.css';
 
 class Articles extends Component
@@ -8,7 +8,7 @@ class Articles extends Component
     articles: false,
   }
   componentDidMount() {
-    fetch("http://localhost:8000/wp-json/Articles/v1/articles/")
+    fetch("http://localhost:8000/wp-json/Filter/v1/articles/")
       .then(response => response.json())
       .catch(error => {
         this.setState({

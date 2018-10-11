@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "../button";
+import Button from "../../global/button";
 import "./form.css";
 
 class formula extends Component

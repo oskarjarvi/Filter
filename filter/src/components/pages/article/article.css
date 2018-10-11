@@ -1,0 +1,31 @@
+.ArticlePreview
+{
+margin-bottom: 15px;
+}
+.ArticleImage
+{
+  height:250px;
+  width:100%;
+  background-color: grey;
+}
+.articledivide
+{
+  width:100%;
+  color:black;
+}
+.title
+{
+  text-align: left;
+  margin:30px;
+}
+.articleButton
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.summary
+{
+  text-align: left;
+  padding:10px;
+}

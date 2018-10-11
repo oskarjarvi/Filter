@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Navigation from "../../navigation";
-import Footer from "../../footer";
-import Magazines from "../../magazines";
-import Articles from "../../articles";
+import Navigation from "../../global/navigation";
+import Footer from "../../global/footer";
+import Magazines from "../../sections/magazines";
+import Articles from "../../sections/articles";
 import './selection.css';
 
 class Selection extends Component
@@ -18,7 +18,7 @@ class Selection extends Component
           <Magazines />
 
         </div>
-<hr />
+        <hr />
 
         <div className="wrapper">
           <p>Artiklar</p>

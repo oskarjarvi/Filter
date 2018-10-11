@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Navigation from "../../navigation";
-import Info from "../../info";
-import Form from "../../form";
-import Start from "../../start";
-import Footer from "../../footer";
+import Navigation from "../../global/navigation";
+import Info from "../../sections/info";
+import Form from "../../sections/form";
+import Start from "../../sections/start";
+import Footer from "../../global/footer";
 import "./main.css";
 
 class Main extends Component {

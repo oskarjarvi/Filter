@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DisplayBox from '../displaybox';
+import DisplayBox from '../../displaybox';
 
 import './magazines.css';
 
@@ -9,7 +9,7 @@ class Magazines extends Component
     magazines: false,
   }
   componentDidMount() {
-    fetch("http://localhost:8000/wp-json/Magazines/v1/magazines/")
+    fetch("http://localhost:8000/wp-json/Filter/v1/magazines/")
       .then(response => response.json())
       .catch(error => {
         this.setState({

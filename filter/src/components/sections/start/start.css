@@ -5,7 +5,7 @@
   align-items: center;
   justify-content:center;
   height: 94vh;
-  background-image: url('../assets/images/hero_phone.png');
+  background-image: url('../../assets/images/hero_phone.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -29,7 +29,7 @@
 }
 .FilterLogo
 {
-  background-image: url('../assets/icons/logo.png');
+  background-image: url('../../assets/icons/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   height:32px;

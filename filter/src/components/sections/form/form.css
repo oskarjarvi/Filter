@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url('../assets/images/konto_mobil.png');
+  background-image: url('../../assets/images/konto_mobil.png');
 }
 .Form input
 {

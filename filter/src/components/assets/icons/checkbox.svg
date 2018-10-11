@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-287.000000, -1068.000000)">
+            <g id="Mediumicon/check" transform="translate(287.000000, 1068.000000)">
+                <rect id="Rectangle-6" fill="#1A1A1A" fill-rule="nonzero" x="0" y="0" width="50" height="50" rx="2"></rect>
+                <path d="M40.0642202,12.6666667 C40.5412868,12.22222 41.0899052,12 41.7100917,12 C42.3302783,12 42.8788967,12.22222 43.3559633,12.6666667 C43.7853232,13.0666687 44,13.5666637 44,14.1666667 C44,14.7666697 43.7853232,15.2666647 43.3559633,15.6666667 L20.5284404,37.0666667 C20.4807337,37.1111113 20.4330278,37.1555553 20.3853211,37.2 C20.3376144,37.2444447 20.2899085,37.2888887 20.2422018,37.3333333 C19.8128419,37.77778 19.27615,38 18.6321101,38 C17.9880702,38 17.4513783,37.77778 17.0220183,37.3333333 L5.6440367,26.8 C5.21467675,26.399998 5,25.900003 5,25.3 C5,24.699997 5.21467675,24.200002 5.6440367,23.8 C6.1211033,23.3555533 6.66972167,23.1333333 7.28990826,23.1333333 C7.91009484,23.1333333 8.45871321,23.3555533 8.93577982,23.8 L18.5963303,32.8 L40.0642202,12.6666667 Z" id="Check---simple-line-icons" fill="#FFFFFF" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

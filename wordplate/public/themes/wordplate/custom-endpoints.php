@@ -35,9 +35,7 @@ return $articles;
 }
 function getArticleById($data)
 {
-$article = get_post($data['ID']);
 
-return $article;
 }
 
 function getAllMagazines()

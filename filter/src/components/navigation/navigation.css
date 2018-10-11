@@ -5,7 +5,15 @@
   height:50px;
   display:flex;
   flex-direction:row;
-  justify-content: flex-end;
+}
+.filterIcon
+{
+background-image: url('../assets/icons/logo.png');
+background-repeat: no-repeat;
+background-size: cover;
+margin:10px;
+height:30px;
+width:86px;
 }
 .hamburgerNav.closed
 {
@@ -23,9 +31,9 @@
 }
 .hamburgerIcon
 {
-  background-color: white;
+  margin-left:auto;
+background-color: #E1AB99;
   padding:10px;
-  position: absolute;
 }
 .hamburgerNav a
 {

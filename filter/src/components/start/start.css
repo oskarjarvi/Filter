@@ -27,3 +27,11 @@
   width:80vw;
   height:5vh;
 }
+.FilterLogo
+{
+  background-image: url('../assets/icons/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:32px;
+  width:91px;
+}

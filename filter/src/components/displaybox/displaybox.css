@@ -1,0 +1,18 @@
+.DisplayBox
+{
+  width:102px;
+  height:148px;
+  display:inline-block;
+  margin:10px;
+  transition: all .2s ease-in-out;
+}
+.DisplayBox:hover
+{
+  transform: scale(1.1);
+}
+.DisplayBox img
+{
+  width:100px;
+  height:150px;
+  overflow:hidden;
+}

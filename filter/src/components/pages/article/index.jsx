@@ -45,7 +45,7 @@ class Article extends Component
         </div>
         <div className="articleButton">
 
-        <Button name="Läs Reportage" url="/read"/>
+        <Button name="Läs Reportage" url={this.state.article.ID}/>
         </div>
         </div>
         <Heart />

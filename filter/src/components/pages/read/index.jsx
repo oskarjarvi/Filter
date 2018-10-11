@@ -31,17 +31,24 @@ class Article extends Component
   render(){
     return(
 
-      <div className="Article">
+      <div className="Read">
         <Navigation />
-        <h2 className="title">{this.state.article.post_title}</h2>
+
+        <h2 className="read-title">{this.state.article.post_title}</h2>
+        <div className="titleicons">
+          <div className="icons Share"></div>
+          <div className="icons like"></div>
+        </div>
+
         <hr className="articledivide"/>
         <div className="content">
-        {this.state.fields.content}
+          {this.state.fields.content}
         </div>
-        <div className="articleButton">
+        <div className="articleFooter">
+          <div className="icons back"></div>
+          <div className="icons likes"></div>
+        </div>
 
-        </div>
-        <Footer />
       </div>
     )
   }

@@ -14,7 +14,7 @@ class App extends Component {
           <Main path="/" />
           <Selection path="/selection" />
           <Article path="selection/:articleId" />
-          <Read path="/read/:articleId" />
+          <Read path="selection/read/:articleId" />
         </Router>
       </div>
     );

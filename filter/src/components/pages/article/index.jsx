@@ -29,7 +29,6 @@ class Article extends Component
         fields: {
           summary: data.fields.summary,
           cover: data.fields.cover.url,
-          number: data.fields.number,
         }
       })
     });
@@ -42,9 +41,10 @@ class Article extends Component
         <Navigation />
         <div className="ArticlePreview">
         <div className="ArticleImage" style={{backgroundImage:`url(${this.state.fields.cover})`}}>
-        <div className="readButton"><Button name="Läs Reportage" url={"/read/"+ this.state.article.ID}/></div>
-        <h3>{this.state.fields.number}</h3>
-          <Link to="/selection" className="backIcon"></Link>
+          <div><Link to="/selection" className="backIcon"></Link>
+          <div className="likeIcon"></div>
+          </div>
+
       </div>
         <h2 className="title">{this.state.article.post_title}</h2>
         <hr className="articledivide"/>
@@ -53,7 +53,7 @@ class Article extends Component
         </div>
 
         <div className="articleButton">
-
+<Button name="Läs Reportage" url={"/read/"+ this.state.article.ID}/>
         </div>
 
         </div>

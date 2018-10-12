@@ -1,3 +1,4 @@
+
 .ArticlePreview
 {
 margin-bottom: 15px;
@@ -5,7 +6,7 @@ margin-bottom: 15px;
 .ArticleImage
 {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   height:250px;
   width:100%;
   background-repeat: no-repeat;
@@ -53,4 +54,16 @@ margin-bottom: 15px;
   width:70px;
   height:70px;
   box-shadow: 2px;
+  float: left;
+}
+.likeIcon
+{
+  background-image: url('../../assets/icons/heart.png');
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  padding:5px;
+  width:70px;
+  height:70px;
+  box-shadow: 2px;
+  float:right;
 }

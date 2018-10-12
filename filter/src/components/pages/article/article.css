@@ -4,15 +4,22 @@ margin-bottom: 15px;
 }
 .ArticleImage
 {
+  display: flex;
+  flex-direction: column-reverse;
   height:250px;
   width:100%;
-  background-color: grey;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
-.ArticleImage img
+.ArticleImage h3
 {
-  height:100%;
-  width:100%;
-  overflow: hidden;
+  color:#252525;
+  width:100px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom:5px;
+  font-size: 60px;
+  padding:10px;
 }
 .articledivide
 {
@@ -23,6 +30,7 @@ margin-bottom: 15px;
 {
   text-align: left;
   margin:30px;
+  margin-left: 10px;
 }
 .articleButton
 {
@@ -34,4 +42,15 @@ margin-bottom: 15px;
 {
   text-align: left;
   padding:10px;
+  margin:15px;
+}
+.backIcon
+{
+  background-image: url('../../assets/icons/Pil.png');
+  background-repeat: no-repeat;
+  background-size: 80px 80px ;
+  padding:5px;
+  width:70px;
+  height:70px;
+  box-shadow: 2px;
 }

@@ -1,11 +1,13 @@
 .content
 {
   margin:25px;
-  height:50vh;
+  padding:20px;
+  font-size: 19px;
+  text-align: left;
 }
 .articleFooter
 {
-  height:6vh;
+  height:8vh;
   background-color: black;
   display:flex;
 }
@@ -16,8 +18,7 @@
   background-repeat: no-repeat;
   background-size: 60px 60px ;
   align-self: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:130px;
 }
 .back
 {

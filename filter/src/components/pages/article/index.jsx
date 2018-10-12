@@ -25,7 +25,7 @@ class Article extends Component
         article: data,
         fields: {
           summary: data.fields.summary,
-          cover: data.fields.cover
+          cover: data.fields.cover.url
         }
       })
     });
@@ -45,7 +45,7 @@ class Article extends Component
         </div>
 
         <div className="articleButton">
-        <Button name="Läs Reportage" url="/selection/read/51"/>
+        <Button name="Läs Reportage" url='/read/51'/>
         </div>
 
         </div>

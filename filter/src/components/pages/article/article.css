@@ -8,6 +8,12 @@ margin-bottom: 15px;
   width:100%;
   background-color: grey;
 }
+.ArticleImage img
+{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
 .articledivide
 {
   width:100%;

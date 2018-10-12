@@ -25,7 +25,7 @@ class Articles extends Component
   render(){
     return(
     <div className="Articles">
-      {this.state.articles ? this.state.articles.map((article, i)=> <DisplayBox link ={article.ID.toString()}  url={article.fields.image ? article.fields.image.url : ''} key={i}/>) : ''}
+      {this.state.articles ? this.state.articles.map((article, i)=> <DisplayBox link ={article.ID.toString()}  url={article.fields.image ? article.fields.image.url : ''} key={i}/> ) : ''}
     </div>
     )
   }

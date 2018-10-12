@@ -31,7 +31,7 @@ if(function_exists('acf_field_group')) {
                 'label' => 'summary',
                 'required' => true
             ]),
-                acf_wysiwyg([
+                acf_textarea([
                     'name' => 'content',
                     'label' => 'Content',
                     'required' => true

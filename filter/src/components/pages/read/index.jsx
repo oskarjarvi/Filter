@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navigation from "../../global/navigation";
-import Footer from "../../global/footer/";
 import {Link} from "@reach/router";
 
 import './read.css';

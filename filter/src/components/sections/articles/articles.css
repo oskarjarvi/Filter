@@ -3,3 +3,11 @@
   margin-top:10px;
   margin-bottom: 10px;
 }
+.carousel
+{
+  display:flex;
+}
+.Slide
+{
+  height:50px;
+}
